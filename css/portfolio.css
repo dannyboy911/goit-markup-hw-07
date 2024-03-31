@@ -169,6 +169,7 @@ ul li a {
   transition: transform var(--transition);
 }
 
+
 button {
   display: flex;
   justify-content: center;
@@ -191,6 +192,11 @@ button {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
     0 3px 1px 0 rgba(0, 0, 0, 0.1);
   transform: scale(1.07);
+}
+
+.filter-buttons {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .filter-images {
@@ -590,7 +596,7 @@ button:hover {
     display: none;
   }
 
-  .burger-section {
+  .menu-container {
     display: none;
   }
 }
@@ -600,7 +606,6 @@ button:hover {
     display: none;
   }
 
-  .burger-section {
+  .menu-container {
     display: none;
   }
-}
