@@ -773,8 +773,8 @@ input-contact + svg:hover {
   }
 
   .menu-toggle {
-    min-height: 40px;
-    min-width: 40px;
+    height: 40px;
+    width: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -786,11 +786,6 @@ input-contact + svg:hover {
     border: none;
     border-radius: 50%;
     outline: none;
-  }
-
-  .menu-toggle:hover,
-  .menu-toggle:focus {
-    background-color: rgba(0, 0, 0, 0.1);
   }
 
   .menu-container {

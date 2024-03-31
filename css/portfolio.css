@@ -452,13 +452,6 @@ button:hover {
     gap: 16px;
   }
 
-  .burger-menu {
-    min-height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-
   .burger-menu svg {
     position: absolute;
     top: 24px;
@@ -486,11 +479,6 @@ button:hover {
     border: none;
     border-radius: 50%;
     outline: none;
-  }
-
-  .menu-toggle:hover,
-  .menu-toggle:focus {
-    background-color: rgba(0, 0, 0, 0.1);
   }
 
   .menu-container {
