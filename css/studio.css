@@ -949,6 +949,10 @@ input-contact + svg:hover {
   .burger-menu {
     display: none;
   }
+
+  .menu-container {
+    display: none;
+  }
 }
 /* stilizare table si device-uri peste 1200px */
 @media screen and (min-width: 1200px) {
