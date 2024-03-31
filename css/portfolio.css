@@ -597,7 +597,22 @@ button:hover {
   .footer > .logo {
     margin-left: 0px;
   }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .burger-section {
+    display: none;
+  }
 }
 /* stilizare table si device-uri peste 1200px */
 @media screen and (min-width: 1200px) {
+  .burger-menu {
+    display: none;
+  }
+
+  .burger-section {
+    display: none;
+  }
 }
