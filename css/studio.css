@@ -755,8 +755,7 @@ input-contact + svg:hover {
     flex-direction: column;
     gap: 16px;
   }
- }
-
+ 
  .burger-menu {
   min-height: 80px;
   display: flex;
@@ -775,23 +774,6 @@ input-contact + svg:hover {
 .menu-container svg {
   border-color: var(--slate);
 }
-/* .menu {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.menu .link {
-  padding: 10px;
-  color: inherit;
-  text-decoration: none;
-}
-
-.menu .link:hover,
-.menu .link:focus {
-  text-decoration: underline;
-} */
 
 .menu-toggle {
   min-height: 40px;
@@ -893,6 +875,7 @@ input-contact + svg:hover {
   width: 24px;
   height: 24px;
 }
+}
  
 
 
@@ -904,6 +887,7 @@ input-contact + svg:hover {
   }
 
   .contact {
+    display: flex;
     flex-direction: column;
     
   }
